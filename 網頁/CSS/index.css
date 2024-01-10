@@ -1,0 +1,140 @@
+body{
+    background-image:url(../img/BACKGROUND\ COLOR.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.nav-bg-color{
+    background-image: url(../img/top\ bar.jpg);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-brand {
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: hsl(30, 100%, 82%)
+}
+.navbar-light .navbar-brand:hover {
+    color: hsl(30, 100%, 82%)
+}
+.box{
+    background-color: rgb(20, 64, 54);
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    padding: 20px;
+}
+.box2{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    padding: 20px;
+}
+.navbar-brand img {
+    max-width: 200px; /* 設置 LOGO 圖片的最大寬度 */
+    height: auto; /* 保持原始高寬比例 */
+}
+.navbar-nav .nav-item {
+    margin-right: 15px; /* 設置連結之間的右邊間距 */
+}
+#a, #b, #c{
+    display: block;
+    height: 800px;
+
+}
+#a{
+    background-color: rgb(0, 0, 0);
+}
+#b{
+    background-color: rgba(0, 0, 0, 0.488);
+}
+#c{
+    background-color: rgb(0, 0, 0);
+}
+#d{
+   background-color: rgba(0, 0, 0, 0.502); 
+}
+.menu{
+    text-align: center;
+    margin: 30px auto;
+}
+#d{
+    display: block;
+    height: 700px;
+    position: relative;
+    top: -1600;
+
+}
+a.move{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+.body2{
+
+}
+.bg_1{
+    background-image: url(../img/IMG_6222.JPG);
+}
+.bg_2{
+    background-image: url(../img/IMG_6238.JPG);
+}
+.bg_3{
+    background-image: url(../img/IMG_6240.JPG);
+}
+.bg_4{
+    background-image: url(../img/6A282506-66C5-46FE-87E2-F0A8D42BC481.jpg);
+}
+.color_1{
+    background-color: rgb(18, 59, 59);
+}
+.color_2{
+    background-color: rgb(18, 59, 59);
+}
+.color_3{
+    background-color: rgb(18, 59, 59);
+}
+html,body{
+    height: 100%;
+}
+.fixed_bg, .infos{
+    position: relative;
+    height: 100%;
+}
+.fixed_bg{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.vcenter{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    color: aliceblue;
+}
+#loading {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    z-index: 9999;
+}
+
+#loading video {
+    width: 1200px;
+}
+#content {
+    display: none;
+}
